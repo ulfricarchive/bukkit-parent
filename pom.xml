@@ -54,11 +54,6 @@
 				</exclusion>
 
 				<exclusion>
-					<groupId>org.yaml</groupId>
-					<artifactId>snakeyaml</artifactId>
-				</exclusion>
-
-				<exclusion>
 					<groupId>net.md-5</groupId>
 					<artifactId>bungeecord-chat</artifactId>
 				</exclusion>
