@@ -16,21 +16,14 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<minecraft.version>1.12-R0.1-SNAPSHOT</minecraft.version>
+		<minecraft.version>1.7.10-R0.1-SNAPSHOT</minecraft.version>
 		<requiredCodeCoverage>0.00</requiredCodeCoverage>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>net.md-5</groupId>
-			<artifactId>bungeecord-chat</artifactId>
-			<version>1.12-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.spigotmc</groupId>
-			<artifactId>spigot-api</artifactId>
+			<groupId>com.ulfric.stayinalive</groupId>
+			<artifactId>stayin-alive-api</artifactId>
 			<version>${minecraft.version}</version>
 			<scope>provided</scope>
 	
@@ -77,17 +70,5 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
-
-	<repositories>
-		<repository>
-			<id>spigot-repo</id>
-			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-		</repository>
-
-		<repository>
-			<id>bungeecord-repo</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-		</repository>
-	</repositories>
 
 </project>
