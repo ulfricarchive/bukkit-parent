@@ -16,7 +16,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<minecraft.version>1.7.10-R0.1-SNAPSHOT</minecraft.version>
+		<minecraft.version>1.7.10</minecraft.version>
 		<requiredCodeCoverage>0.00</requiredCodeCoverage>
 	</properties>
 
