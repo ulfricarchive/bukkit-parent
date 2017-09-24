@@ -1,2 +1,2 @@
-# minecraft-parent
-Minecraft parent pom
+# bukkit-parent
+Bukkit parent pom
