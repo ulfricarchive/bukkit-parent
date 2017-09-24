@@ -1,2 +1,2 @@
-# minecraft
+# minecraft-parent
 Minecraft parent pom
